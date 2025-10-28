@@ -134,12 +134,6 @@ int main(){
         // Game over check
         if(balance == 0) {
             cout << "You have run out of balance. Game over!" << endl;
-            cout << "Computer will reboot in 3 seconds..." << endl;
-            for(int i = 3; i > 0; i--) {
-                cout << i << "..." << endl;
-                sleepfor(1000);
-            }
-            system("reboot /s /t 1");
             exit(0);
         }
 
