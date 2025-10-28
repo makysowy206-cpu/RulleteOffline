@@ -166,7 +166,7 @@ else{
     
     for(int i = 3; i > 0; i--){
         cout << i << "..." << endl;
-        sleepfor(10000);
+        sleepfor(1000);
     }
     
     // Wyłączenie komputera
@@ -282,7 +282,7 @@ else{
     
     for(int i = 2; i > 0; i--){
         cout << i << "..." << endl;
-        sleepfor(10000);
+        sleepfor(1000);
     }
     
     // Wyłączenie komputera
